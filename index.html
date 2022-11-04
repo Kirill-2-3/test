@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Site</title>
+</head>
+<body>
+
+    <div class="page">
+
+
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__header">
+                        <h1 class="header__title">
+                            <a href="index.html">WEBDEVELOPER</a>
+                        </h1>
+                    </div>
+
+                    <div class="header__logo">
+                        <img class="header__img" src="img/logo.svg" alt="">
+                    </div>
+
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__li">
+                                <a class="header__link active" href="index.html">Home</a>
+                            </li>
+                            <li class="header__li">
+                                <a class="header__link" href="about.html">About me</a>
+                            </li>
+                            <li class="header__li">
+                                <a class="header__link" href="contacts.html">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Content -->
+        <div class="container">
+            <main class="content">
+                <div class="content__header">
+                    <h2 class="suptitle">My name is</h2>
+                    <h1 class="title">Dmitry Valak and I’m <span>Web Developer</span></h1>
+                </div>
+                
+                <div class="content__text">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like </p>
+                </div>
+
+                <a class="btn btn--content" href="contacts.html">Contact Me</a>
+            </main>
+
+            <picture>
+                <source srcset="img/me.webp" type="image/webp">
+                <img class="author" src="img/me.png" alt="">
+            </picture>
+        </div>
+
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a class="footer__link" href="mailto:info@dmitry@gmail.com">
+                        <img class="footer__icon" src="img/mail.svg" alt="">
+                        <span>info@dmitry@gmail.com</span>
+                    </a>
+                    
+                    <a class="footer__link" href="tel:+37125521551">
+                        <img class="footer__icon" src="img/phone.svg" alt="">
+                        <span>+371 255-21-551</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div><!-- /.page -->
+    
+</body>
+</html>
